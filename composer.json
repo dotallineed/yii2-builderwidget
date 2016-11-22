@@ -3,6 +3,7 @@
     "description": "An extension for creating and storing html widgets with content to the database for Yii2 site builder",
     "type": "yii2-extension",
     "keywords": ["yii2","extension"],
+    "homepage": "https://github.com/dotallineed/yii2-widgets-builder",
     "license": "MIT",
     "authors": [
         {
