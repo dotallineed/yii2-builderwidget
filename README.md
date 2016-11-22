@@ -25,7 +25,26 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, Add the following code in your main configuration file
+
+ ```php
+ 'builderwidgets' => [
+            'class' => 'dotallineed\widgetsbuilder\BuilderWidget',
+			
+            'storage' => [
+                'class' => 'dotallineed\widgetsbuilder\MultipleStorage',
+                'storages' => [
+                    [
+                        'class' => 'dotallineed\widgetsbuilder\DatabaseStorage',
+                        'table' => 'builder_widgets',
+                    ],
+                ],
+            ]		
+			
+        ],
+ ```
+
+ and simply use it in your code by  :
 
 ```php
-  $builder_widgets=Yii::$app->builderwidget;```
+  $builder_widgets=Yii::$app->builderwidgets;```
