@@ -1,5 +1,5 @@
 {
-    "name": "magaga/yii2-cart",
+    "name": "dotallineed/yii2-builderwidget",
     "description": "Yii2 extension that adds add widgets to the site builder functions",
     "keywords": ["yii", "Wigets builder"],
 	"license": "MIT",
@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "magaga\\widget\\": ""
+            "dotallineed\\widget\\": ""
         }
     }
 }
