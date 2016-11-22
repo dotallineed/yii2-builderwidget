@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
  
-namespace magaga\builderwidgets;
+namespace dotallineed\widgetsbuilder;
 
 use yii\base\Component;
 use yii\base\Object;

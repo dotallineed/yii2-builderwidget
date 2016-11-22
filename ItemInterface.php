@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
  
-namespace magaga\builderwidgets;
+namespace dotallineed\widgetsbuilder;
 
 
 /**

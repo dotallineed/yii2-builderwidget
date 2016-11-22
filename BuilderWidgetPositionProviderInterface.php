@@ -1,6 +1,6 @@
 <?php
 
-namespace magaga\builderwidgets;
+namespace dotallineed\widgetsbuilder;
 
 
 /**

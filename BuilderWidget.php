@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace magaga\builderwidgets;
+namespace dotallineed\widgetsbuilder;
 
 use Yii;
 use yii\base\Component;
@@ -25,7 +25,7 @@ use yii\di\Instance;
  * @property bool $isEmpty Returns true if cart is empty
  * @property string $hash Returns hash (md5) of the current cart, that is uniq to the current combination
  * of items, quantities and costs
- * @package \magaga\builderwidgets
+ * @package \dotallineed\widgetsbuilder
  */
 class BuilderWidget extends Component
 {
@@ -59,7 +59,7 @@ class BuilderWidget extends Component
 	 * MultipleStorage cart will be automatically stored in and loaded from Storage1 (if guest) or Storage2 (if user).
 	 * @var string
 	 */
-	public $storage = 'magaga\builderwidgets\DatabaseStorage';
+	public $storage = 'dotallineed\widgetsbuilder\DatabaseStorage';
 
 	public function init()
 	{

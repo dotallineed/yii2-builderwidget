@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace magaga\builderwidgets;
+namespace dotallineed\widgetsbuilder;
 
 use Yii;
 use yii\base\BootstrapInterface;
@@ -29,7 +29,7 @@ class BuilderWidgetBootstrap implements BootstrapInterface
 	{
 		Event::on(User::className(), User::EVENT_AFTER_LOGIN, function () {
 			$storage = Instance::ensure(\Yii::$app->cart->storage, MultipleStorage::className());
-			if (get_class($storage) == 'magaga\builderwidgets\MultipleStorage') {
+			if (get_class($storage) == 'dotallineed\widgetsbuilder\MultipleStorage') {
 				$cart = Instance::ensure(\Yii::$app->cart, Cart::className());
 				$storage->sync($cart);
 			}

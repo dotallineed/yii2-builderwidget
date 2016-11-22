@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
  
-namespace dotallineed\widget;
+namespace dotallineed\widgetsbuilder;
 
 /**
  * Abstract Class Storage

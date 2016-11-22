@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
  
-namespace dotallineed\widget;
+namespace dotallineed\widgetsbuilder;
 
 use yii\di\Instance;
 

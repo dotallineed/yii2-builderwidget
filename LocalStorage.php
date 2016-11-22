@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
  
-namespace magaga\builderwidgets;
+namespace dotallineed\widgetsbuilder;
 
 /**
  * LocalStorage is extended from Storage Class
@@ -15,9 +15,9 @@ namespace magaga\builderwidgets;
  * Usage:
  * Configuration in block component look like this
  *		'cart' => [
- *			'class' => 'magaga\builderwidgets\Cart',
+ *			'class' => 'dotallineed\widgetsbuilder\Cart',
  *			'storage' => [
- *				'class' => 'magaga\builderwidgets\LocalStorage',
+ *				'class' => 'dotallineed\widgetsbuilder\LocalStorage',
  *			]
  *		],
  *
