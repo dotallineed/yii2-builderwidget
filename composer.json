@@ -23,7 +23,7 @@
     },
     "autoload": {
         "psr-4": {
-            "dotallineed\\builderwidget\\": ""
+            "dotallineed\\widgetsbuilder\\": ""
         }
     }
 }
