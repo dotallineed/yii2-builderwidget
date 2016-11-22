@@ -1,0 +1,22 @@
+{
+    "name": "magaga/yii2-cart",
+    "description": "Yii2 extension that adds add widgets to the site builder functions",
+    "keywords": ["yii", "Wigets builder"],
+	"license": "MIT",
+    "authors": [
+        {
+            "name": "Kinggeorge Magaga",
+            "email": "magagageorge@dotallineed.com"
+        }
+    ],
+    "type": "yii2-extension",
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "magaga\\widget\\": ""
+        }
+    }
+}
