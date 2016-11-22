@@ -1,22 +1,21 @@
 {
-    "name": "dotallineed/yii2-builderwidget",
-    "description": "Yii2 extension that adds add widgets to the site builder functions",
-    "keywords": ["yii", "Wigets builder"],
-	"license": "MIT",
+    "name": "dotallineed/yii2-widgets-builder",
+    "description": "An extension for creating and storing html widgets with content to the database for Yii2 site builder",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
     "authors": [
         {
             "name": "Kinggeorge Magaga",
             "email": "magagageorge@dotallineed.com"
         }
     ],
-    "type": "yii2-extension",
     "require": {
-        "php": ">=5.4.0",
         "yiisoft/yii2": "*"
     },
     "autoload": {
         "psr-4": {
-            "dotallineed\\widget\\": ""
+            "dotallineed\\": ""
         }
     }
 }
