@@ -28,4 +28,4 @@ Usage
 Once the extension is installed, simply use it in your code by  :
 
 ```php
-  $builder_widgets=Yii::$app->builderwidgets;```
+  $builder_widgets=Yii::$app->builderwidget;```
